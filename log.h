@@ -8,19 +8,19 @@
 
 #ifdef DEBUG
 #define log_debug(...) \
-        __android_log_print(ANDROID_LOG_DEBUG, "wst",  __VA_ARGS__)
+        __android_log_print(ANDROID_LOG_DEBUG, "test",  __VA_ARGS__)
 #else
 #define log_debug(...)
 #endif
 
 #define log_warn(...) \
-        __android_log_print(ANDROID_LOG_WARN, "wst", __VA_ARGS__)
+        __android_log_print(ANDROID_LOG_WARN, "test", __VA_ARGS__)
 #define log_error(...) \
-        __android_log_print(ANDROID_LOG_ERROR, "wst", __VA_ARGS__)
+        __android_log_print(ANDROID_LOG_ERROR, "test", __VA_ARGS__)
 #define log_bug(...) \
-        __android_log_print(ANDROID_LOG_FATAL, "wst", __VA_ARGS__)
+        __android_log_print(ANDROID_LOG_FATAL, "test", __VA_ARGS__)
 #define log_info(...) \
-        __android_log_print(ANDROID_LOG_INFO, "wst", __VA_ARGS__)
+        __android_log_print(ANDROID_LOG_INFO, "test", __VA_ARGS__)
 
 #else  // Linux
 
